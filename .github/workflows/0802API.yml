@@ -39,7 +39,7 @@ jobs:
           
       - name: Run daily arxiv 
         run: |
-          python 0802arXivAPI2.py
+          python .github/0802arXivAPI2.py
           
       - name: Push new cv-arxiv-daily.md
         uses: github-actions-x/commit@v2.8
